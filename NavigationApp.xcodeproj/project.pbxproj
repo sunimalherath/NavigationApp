@@ -13,6 +13,8 @@
 		459F5B5D2413198300EC9A9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459F5B5C2413198300EC9A9B /* Assets.xcassets */; };
 		459F5B602413198300EC9A9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459F5B5F2413198300EC9A9B /* Preview Assets.xcassets */; };
 		459F5B632413198300EC9A9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459F5B612413198300EC9A9B /* LaunchScreen.storyboard */; };
+		459F5B6D24131A8400EC9A9B /* PizzaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F5B6C24131A8400EC9A9B /* PizzaList.swift */; };
+		459F5B6F24131ACD00EC9A9B /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F5B6E24131ACD00EC9A9B /* Pizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		459F5B5F2413198300EC9A9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		459F5B622413198300EC9A9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		459F5B642413198300EC9A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		459F5B6C24131A8400EC9A9B /* PizzaList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaList.swift; sourceTree = "<group>"; };
+		459F5B6E24131ACD00EC9A9B /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		459F5B552413197F00EC9A9B /* NavigationApp */ = {
 			isa = PBXGroup;
 			children = (
+				459F5B6B241319BC00EC9A9B /* Model */,
+				459F5B6A241319A800EC9A9B /* Screens */,
 				459F5B562413197F00EC9A9B /* AppDelegate.swift */,
 				459F5B582413197F00EC9A9B /* SceneDelegate.swift */,
 				459F5B5A2413197F00EC9A9B /* ContentView.swift */,
@@ -73,6 +79,22 @@
 				459F5B5F2413198300EC9A9B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		459F5B6A241319A800EC9A9B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				459F5B6C24131A8400EC9A9B /* PizzaList.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		459F5B6B241319BC00EC9A9B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				459F5B6E24131ACD00EC9A9B /* Pizza.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				459F5B6D24131A8400EC9A9B /* PizzaList.swift in Sources */,
 				459F5B572413197F00EC9A9B /* AppDelegate.swift in Sources */,
 				459F5B592413197F00EC9A9B /* SceneDelegate.swift in Sources */,
+				459F5B6F24131ACD00EC9A9B /* Pizza.swift in Sources */,
 				459F5B5B2413197F00EC9A9B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
