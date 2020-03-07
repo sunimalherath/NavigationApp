@@ -9,13 +9,23 @@
 import SwiftUI
 
 struct PizzaList: View {
+    var pizzaList: [Pizza]
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List(pizzaList) { pizza in
+                PizzaListView(pizza: pizza)
+            }
+            .navigationBarTitle("Pizza Menu")
+            .padding(6)
+        }
     }
 }
 
 struct PizzaList_Previews: PreviewProvider {
     static var previews: some View {
-        PizzaList()
+        PizzaList(pizzaList: [
+            Pizza(id: 1, name: "Garlic Chicken", description: "Garlic Chicken in crust base", price: 15),
+            Pizza(id: 2, name: "Chicken & Pineapple", description: "Pizza with pineapple and fried chicken", price: 10)
+        ])
     }
 }

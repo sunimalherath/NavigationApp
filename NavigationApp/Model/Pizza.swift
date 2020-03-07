@@ -8,8 +8,9 @@
 
 import Foundation
 
-struct Pizza {
-    var id: String = ""
+struct Pizza: Identifiable {
+    var id: Int = 0
     var name: String = ""
+    var description: String = ""
     var price: Double = 0.0
 }
