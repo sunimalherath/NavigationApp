@@ -16,6 +16,9 @@
 		459F5B6D24131A8400EC9A9B /* PizzaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F5B6C24131A8400EC9A9B /* PizzaList.swift */; };
 		459F5B6F24131ACD00EC9A9B /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F5B6E24131ACD00EC9A9B /* Pizza.swift */; };
 		459F5B7224131EB900EC9A9B /* PizzaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F5B7124131EB900EC9A9B /* PizzaListView.swift */; };
+		459F5B742413249E00EC9A9B /* PizzaDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F5B732413249E00EC9A9B /* PizzaDetailScreen.swift */; };
+		459F5B76241324C200EC9A9B /* PizzaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F5B75241324C200EC9A9B /* PizzaDetailView.swift */; };
+		459F5B78241396CF00EC9A9B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F5B77241396CF00EC9A9B /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		459F5B6C24131A8400EC9A9B /* PizzaList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaList.swift; sourceTree = "<group>"; };
 		459F5B6E24131ACD00EC9A9B /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		459F5B7124131EB900EC9A9B /* PizzaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaListView.swift; sourceTree = "<group>"; };
+		459F5B732413249E00EC9A9B /* PizzaDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaDetailScreen.swift; sourceTree = "<group>"; };
+		459F5B75241324C200EC9A9B /* PizzaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaDetailView.swift; sourceTree = "<group>"; };
+		459F5B77241396CF00EC9A9B /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				459F5B6C24131A8400EC9A9B /* PizzaList.swift */,
+				459F5B732413249E00EC9A9B /* PizzaDetailScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -96,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				459F5B6E24131ACD00EC9A9B /* Pizza.swift */,
+				459F5B77241396CF00EC9A9B /* DataService.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -104,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				459F5B7124131EB900EC9A9B /* PizzaListView.swift */,
+				459F5B75241324C200EC9A9B /* PizzaDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,9 +188,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				459F5B78241396CF00EC9A9B /* DataService.swift in Sources */,
 				459F5B6D24131A8400EC9A9B /* PizzaList.swift in Sources */,
 				459F5B572413197F00EC9A9B /* AppDelegate.swift in Sources */,
 				459F5B592413197F00EC9A9B /* SceneDelegate.swift in Sources */,
+				459F5B742413249E00EC9A9B /* PizzaDetailScreen.swift in Sources */,
+				459F5B76241324C200EC9A9B /* PizzaDetailView.swift in Sources */,
 				459F5B7224131EB900EC9A9B /* PizzaListView.swift in Sources */,
 				459F5B6F24131ACD00EC9A9B /* Pizza.swift in Sources */,
 				459F5B5B2413197F00EC9A9B /* ContentView.swift in Sources */,

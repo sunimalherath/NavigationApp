@@ -13,7 +13,9 @@ struct PizzaList: View {
     var body: some View {
         NavigationView {
             List(pizzaList) { pizza in
-                PizzaListView(pizza: pizza)
+                NavigationLink(destination: PizzaDetailScreen(pizza: pizza)) {
+                    PizzaListView(pizza: pizza)
+                }
             }
             .navigationBarTitle("Pizza Menu")
             .padding(6)
